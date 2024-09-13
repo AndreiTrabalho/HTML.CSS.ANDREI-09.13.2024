@@ -1,0 +1,177 @@
+body {
+     margin: 0px;
+}
+
+header {
+    display: block;
+    background-color: darkslategray;
+    padding: 0;
+}
+
+.cabecalho {
+    margin: auto;
+    width: 1400px;
+    display: block;
+    background-color: darkslategray;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    color: rgba(255, 255, 255, 0.5);;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 300;
+    font-size: 21px;
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+}
+
+header nav ul {
+    vertical-align: text-bottom;
+    margin:0px;
+    padding: 0px;
+   }
+
+header nav li {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+header nav li a {
+    color:rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    font-size: 21px;
+}
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+
+main {
+    width: 1400px;
+    margin:20px auto;
+    font-size: 21px;
+    background-color: #eeeeee;
+    padding: 0 20px 0 20px;
+}
+
+.banner {
+    margin: 0 0 0 -10px;
+    align-items: center;
+    width: 1440px;
+    padding: 0 0 10px 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: darkslategray; /* Azul padrão do botão */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #4F2F46; /* Azul mais escuro para hover */
+}
+
+hr {
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.avaliacao {
+    border-radius: 10px 10px 0 0;
+    background-color: darkslategray;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.background {
+    background: linear-gradient(45deg, darkslategray 25%, rgb(56, 95, 95) 25%, rgb(56, 95, 95) 50%, darkslategray 50%, darkslategray 75%, rgb(56, 95, 95) 75%, rgb(56, 95, 95) 100%);
+    background-size: 40px 40px; /* Define o tamanho do padrão de linhas */
+    animation: moveBackground 5s linear infinite;
+    z-index: -1; /* Garante que o fundo não sobreponha o conteúdo */
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 120px 40px; /* Move o fundo para criar o efeito de animação */
+    }
+}
+
+.testimonials {
+    max-width: 1400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px 10px 10px;
+}
+
+.testimonial:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.quote {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.stars {
+    font-size: 20px;
+    color: #FFD700; /* Cor dourada das estrelas */
+    margin: 0 0 10px 0;
+}
+
+.author {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+fieldset {
+    margin: 20px 0 0 0;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+label {
+    font-size: 16px;
+}
+
+footer {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 1440px;
+}
